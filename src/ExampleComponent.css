@@ -1,0 +1,35 @@
+.document-list {
+  list-style: decimal;
+  padding-left: 1.5rem;
+}
+
+.document-list li {
+  margin-bottom: 0.5rem;
+}
+
+.document-list code {
+  font-size: 0.85rem;
+  background: #f4f4f4;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  display: block;
+  white-space: pre-wrap;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f0f0f0;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
